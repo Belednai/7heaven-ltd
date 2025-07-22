@@ -92,25 +92,6 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-
-        <div className="mt-16 text-center">
-          <a
-            href="tel:+211928741200"
-            className="block w-full"
-            aria-label="Call via Teams +211928741200"
-          >
-            <Button
-              className="w-full bg-primary hover:bg-primary-light focus:bg-primary-dark text-white font-semibold transition-colors transition-shadow duration-200 mb-3"
-              size="lg"
-              asChild
-            >
-              <span className="flex items-center justify-center">
-                {/* You can use a Teams icon here if you have one */}
-                Call via Teams
-              </span>
-            </Button>
-          </a>
-        </div>
       </div>
     </section>
   );
